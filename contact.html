@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+        <ul>
+            <li><a href="index.html">HOME</a> </li><br>
+            <li><a href="about.html">ABOUT</a> </li><br>
+            <li><a href="Service.html">SERVICE</a></li><br>
+            <li><a href="contact.html">CONTACT US</a></li><br>
+        </ul>
+    </nav>
+    <h2 style="text-align: center;">Sample Form</h2>
+    <form action="submit.html" method="post" style="text-align: center;">
+        <label name="firstname" >FirstName:* </label>
+            <input  name="fname" type="text" placeholder="FirstName" required><br><br>
+        <label name="Lastname" >LastName: </label>
+            <input  name="lname" type="text" placeholder="LastName"><br><br>
+        <label name="email" >Email:* </label>&nbsp;
+            <input  name="email" type="email" placeholder="Gmail" required><br><br>
+        <label name="ph"  >Ph no:*</label>
+        <input type="tel" name="tel" placeholder="### ### ###" required><br><br>
+        <label name="dob" >Date of Birth:</label>
+        <input type="date" required><br><br>
+        <label name="gender">Gender:</label>&nbsp;
+            <input  type="radio"  name="gender" value="male">
+            <label for="male">Male</label>
+            <input  type="radio"  name="gender"value="female">
+            <label for="female">Female</label>
+            <input  type="radio"  name="gender"value="tgender">
+            <label for="tgender">Transgender</label><br><br>
+            <label for="dept" >Select Dept:</label>
+            <select name="dept" id="dept">
+              <option value="it">Informarion Technology</option>
+              <option value="cs">computer science</option>
+              <option value="civil">Civil</option>
+              <option value="mech">Mech</option>
+              <option value="ece">ECE</option>
+              <option value="eee">EEE</option>
+            </select><br><br>
+            <label name="interest">Choose your interests:</label><br><br>
+            <div>
+              <input type="checkbox" id="coding" name="interest" value="coding" />
+              <label for="coding">Coding</label>
+            </div>
+            <div>
+              <input type="checkbox" id="music" name="interest" value="music" />
+              <label for="music">Music</label>
+            </div>
+            <div>
+                <input type="checkbox" id="study" name="interest" value="study" />
+                <label for="study">Study</label>
+            </div>
+            <div>
+                <input type="checkbox" id="study" name="interest" value="dance" />
+                <label for="dance">Dance</label>
+            </div><br>
+            <label name="file">Upload your file:</label>
+            <input name="resume" type="file"><br><br>
+        
+            <textarea placeholder="Enter a comment....." rows="3" cols="50"></textarea><br><br>
+            <input type="Submit" type="submit">
+            <input type="reset" type="reset">
+            <br>
+       
+       
+        </form><br>
+        <footer style="text-align: center;" >  <a href="#"><b>Copyright © 2023 My_website. All Rights Reserved.</b></a></footer>
+
+</body>
+</html>
+
